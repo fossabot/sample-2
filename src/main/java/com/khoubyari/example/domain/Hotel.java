@@ -17,7 +17,7 @@ public class Hotel {
     private long id;
 
     @Column(nullable = false)
-    private String name
+    private String name;
 
     @Column()
     private String description;
