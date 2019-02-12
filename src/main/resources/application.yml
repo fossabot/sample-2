@@ -53,5 +53,14 @@ hotel.service:
 logging:
   file: boot_example.log
   org.hibernate: INFO
+  
+  addons:
+  sonarcloud:
+    organization: "madhusnair340s-github" # the key of the org you chose at step #3
+    token:
+      secure: 3b5fad0893db4925fa7eb0ee738e97e82e0887bf # encrypted value of your token
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
 
  
