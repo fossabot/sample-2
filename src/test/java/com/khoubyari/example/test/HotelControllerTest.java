@@ -66,7 +66,7 @@ public class HotelControllerTest {
     @Test
     public void shouldCreateRetrieveDelete() throws Exception {
         Hotel r1 = mockHotel("shouldCreateRetrieveDelete");
-        byte[] r1Json = toJson(r1);
+        byte[] r1Json = toJson(r1)
 
         //CREATE
         MvcResult result = mvc.perform(post("/example/v1/hotels")
