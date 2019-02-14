@@ -1,4 +1,6 @@
 # Spring Boot "Microservice" Example Project
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmadhusnair340s%2Fsample.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmadhusnair340s%2Fsample?ref=badge_shield)
+
 
 This is a sample Java / Maven / Spring Boot (version 1.5.6) application that can be used as a starter for creating a microservice complete with built-in health check, metrics and much more. I hope it helps you.
 
@@ -186,3 +188,7 @@ and then you can connect to it remotely using your IDE. For example, from Intell
 # Questions and Comments: khoubyari@gmail.com
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmadhusnair340s%2Fsample.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmadhusnair340s%2Fsample?ref=badge_large)
